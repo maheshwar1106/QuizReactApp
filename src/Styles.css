@@ -1,0 +1,654 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* --------------------------------Home Page Styling Starts-------------------------- */
+
+.appBackGround {
+  width: 100%;
+  background-color: rgb(194, 192, 192);
+  height: 100vh;
+}
+
+.homeBackGround {
+  width: inherit;
+}
+
+.homeBackGround h1 {
+  font-size: 80px;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+}
+
+.homeBackGround h2 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-weight: 800;
+  font-stretch: narrower;
+  font-variant: initial;
+  padding: 0px 0px;
+}
+
+.clickButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-weight: 600;
+  font-stretch: narrower;
+  font-variant: initial;
+}
+
+.clickButtons Button {
+  margin: 10px;
+}
+
+/* ------------------------------Home Page Styling Ends----------------------------- */
+
+/* -------------------------------CreateQuizList Page Starts------------------------------- */
+
+#quizPageBackGround {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+
+  background-color: rgb(194, 192, 192);
+}
+
+#quizPage {
+  background-color: white;
+  width: 85%;
+  margin: 40px 0px;
+  padding: 35px;
+  border-radius: 10px;
+}
+
+#quizPage h2 {
+  font-family: sans-serif;
+  font-weight: 850;
+  font-stretch: condensed;
+  font-size: 13px;
+  font-variant: normal;
+}
+#quizPage hr {
+  margin: 10px 0;
+  color: rgb(179, 178, 178);
+}
+
+#quizPage p {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-stretch: condensed;
+  font-variant: normal;
+  color: rgb(122, 120, 120);
+}
+
+/* -------------------------------CreateQuizList Page Ends------------------------------- */
+
+/* -------------------------------GenQuiz Page Starts------------------------------- */
+
+#paperStyle {
+  padding: 10px;
+  width: 100%;
+  margin: 20px 0px;
+  border-radius: 5px;
+  display: flex;
+  background-color: rgb(225, 225, 225);
+}
+#paperStyle form {
+  margin-left: 10px;
+}
+form #standard-basic {
+  width: 690px;
+  margin-left: 2px;
+}
+#quesNoAA {
+  padding-top: 25px;
+  font-size: 15px;
+  font-family: sans-serif;
+  display: flex;
+}
+
+#arrowImg {
+  margin-left: 2px;
+  height: 15px;
+  width: 14px;
+}
+
+#quesNoTQ {
+  padding-top: 2px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+#textAreaTQ {
+  margin: 20px 0px 20px 0px;
+  color: #ed3c28;
+}
+
+#textAreaTQ textarea {
+  width: 100%;
+  height: 100px;
+  outline: none;
+  border: 1.5px solid grey;
+  border-radius: 4px;
+  text-indent: 15px;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 18px;
+  padding: 10px 5px 5px 0px;
+}
+/* -------------------------------GenQuiz Page Ends------------------------------- */
+
+/* -------------------------------Radio Page Starts------------------------------- */
+#radioOptionLabel {
+  display: block;
+  width: 60px;
+  font-size: small;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: expanded;
+  margin: 5px 0px;
+  color: gray;
+}
+
+#radioOptionInput {
+  height: 30px;
+  width: 200px;
+  outline: none;
+  border: 0.2px solid rgb(162, 162, 162);
+  border-radius: 5px;
+  background-color: white;
+  text-indent: 10px;
+  text-decoration: dotted;
+  font-size: small;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: expanded;
+}
+
+#radioAddButton {
+  margin-left: 10px;
+  height: 30px;
+  width: 30px;
+  color: grey;
+
+  border: 0.2px solid rgb(162, 162, 162);
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: white;
+}
+
+#optionRender {
+  height: 30px;
+  width: 250px;
+  outline: none;
+  text-decoration: dotted;
+  display: flex;
+  justify-content: space-between;
+}
+
+#optionRender p {
+  border: 0.2px solid rgb(162, 162, 162);
+  border-radius: 5px;
+  width: 200px;
+  text-indent: 10px;
+  font-size: small;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: expanded;
+  display: flex;
+  align-items: center;
+}
+
+#optionRender button {
+  width: 30px;
+  color: grey;
+  border: 0.2px solid rgb(162, 162, 162);
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: white;
+}
+
+/* -------------------------------Radio Page Ends------------------------------- */
+
+/* -------------------------------Toggle Button starts------------------------------- */
+#toggleMenu {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+#toggleMenu p {
+  text-decoration: dotted;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: expanded;
+  color: black;
+}
+
+#toggleButton {
+  background-color: lightgray;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 18px;
+  position: relative;
+  width: 40px;
+  margin-left: 20px;
+}
+
+#toggleButton:hover {
+  background-color: rgb(211, 18, 18);
+}
+#toggleButton:focus,
+#toggleButton:active {
+  outline: none;
+}
+
+.pin {
+  background-color: white;
+  border-radius: 60%;
+  height: 12px;
+  left: 4px;
+  position: absolute;
+  top: 3px;
+  width: 13px;
+  transition: left ease 0.5s;
+}
+
+#toggleButton.on {
+  background-color: rgb(6, 33, 240);
+}
+
+#toggleButton.on .pin {
+  left: 20px;
+}
+
+#toggleInput {
+  height: 30px;
+  width: 780px;
+  outline: none;
+  border: 0.2px solid rgb(162, 162, 162);
+  border-radius: 5px;
+  background-color: white;
+  text-indent: 10px;
+  text-decoration: dotted;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: expanded;
+  color: black;
+  margin-left: 20px;
+}
+#delButton {
+  display: flex;
+}
+#delButton button {
+  height: 34px;
+  margin-left: 40px;
+  background-color: rgb(225, 225, 225);
+  outline: none;
+  border: none;
+}
+
+#delButton img {
+  height: 30px;
+  cursor: pointer;
+}
+
+/* -------------------------------Toggle Button Ends------------------------------- */
+
+/* -------------------------------TextArea Starts------------------------------- */
+#textArea {
+  margin-top: 20px;
+}
+
+#textArea textarea {
+  width: 75%;
+  height: 80px;
+  outline: none;
+  border: 1.5px solid grey;
+  border-radius: 4px;
+  text-indent: 15px;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 18px;
+  padding: 10px 5px 5px 0px;
+}
+/* -------------------------------TextArea Ends------------------------------- */
+
+/* -------------------------------Option rendering Starts------------------------------- */
+#optionRendering {
+  width: 100%;
+}
+#quesNo {
+  padding-top: 3px;
+  font-size: 15px;
+  display: flex;
+}
+#quesNo img {
+  padding-top: 2px;
+  height: 15px;
+}
+#checkBoxOptionRendering {
+  margin: 10px 0px;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0px;
+  width: 80%;
+}
+#checkBoxOptionRendering div {
+  padding: 10px;
+  margin: 0px 15px 0px 0px;
+  width: inherit;
+}
+
+#checkBoxOptionRendering div label {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: expanded;
+  color: black;
+}
+#checkBoxOptionRendering div span {
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  font-stretch: expanded;
+  color: black;
+}
+
+/* -------------------------------Option rendering Ends------------------------------- */
+
+#dragBar {
+  width: 30px;
+  text-align: center;
+
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* ------------------------------------ Header Table starts------------------------------ */
+
+#displayTable table {
+  border-spacing: 0px;
+}
+
+#tableHead {
+  background-color: #32c888;
+}
+
+#tableHead td:first-child {
+  width: 276px;
+  height: 55px;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+#tableHead td:nth-child(2) {
+  width: 276px;
+  font-size: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+#tableRows td:first-child {
+  /* background-color: aquamarine; */
+  height: 55px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #343434;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#renderTypography {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #030303;
+  font-size: 18px;
+  font-weight: 600;
+}
+#tableRows td:nth-child(2) {
+  height: 55px;
+  text-align: center;
+  font-size: 23px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #343434;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* ------------------------------------ Header Table end------------------------------ */
+
+/* ------------------------------------------Take Quiz Background Starts---------------------- */
+.takeQuizBackground {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(194, 192, 192);
+}
+/* ------------------------------------------Take Quiz Background Ends------------------------ */
+
+.timerFunction {
+  background-color: rgb(135, 131, 131);
+  border-radius: 12px;
+  height: 80px;
+  width: 151px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 0px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* ------------------------------------------Media Query Starts------------------------ */
+
+@media all and (max-width: 600px) {
+  .appBackGround {
+    width: 100%;
+    background-color: grey;
+  }
+  #quizPage {
+    background-color: white;
+    width: 100%;
+    margin: 40px 0px;
+    padding: 35px;
+    border-radius: 10px;
+  }
+
+  #optionRendering {
+    width: 100%;
+  }
+
+  #checkBoxOptionRendering {
+    margin: 10px 0px;
+    display: grid;
+    grid-template-columns: auto;
+    padding: 0px;
+    width: 100%;
+  }
+
+  #checkBoxOptionRendering div {
+    padding: 10px;
+    margin: 0px 15px 0px 0px;
+    width: 100%;
+  }
+
+  #checkBoxOptionRendering div label {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: expanded;
+    color: black;
+  }
+  #checkBoxOptionRendering div span {
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: expanded;
+    color: black;
+  }
+  #toggleMenu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  #toggleInput {
+    height: 30px;
+    width: 100%;
+    outline: none;
+    border: 0.2px solid rgb(162, 162, 162);
+    border-radius: 5px;
+    background-color: white;
+    text-indent: 10px;
+    text-decoration: dotted;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    font-stretch: expanded;
+    color: black;
+    margin-left: 20px;
+  }
+
+  #toggleButton {
+    background-color: rgb(241, 237, 237);
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 12px;
+    position: relative;
+    width: 40px;
+    margin-left: 20px;
+  }
+
+  #toggleButton:hover {
+    background-color: rgb(211, 18, 18);
+  }
+  #toggleButton:focus,
+  #toggleButton:active {
+    outline: none;
+  }
+
+  .pin {
+    background-color: white;
+    border-radius: 40%;
+    height: 6px;
+    left: 3px;
+    position: absolute;
+    top: 3px;
+    width: 6px;
+    transition: left ease 0.5s;
+  }
+
+  #toggleButton.on {
+    background-color: rgb(6, 33, 240);
+  }
+
+  #toggleButton.on .pin {
+    left: 10px;
+  }
+
+  #paperStyle form {
+    margin-left: 5px;
+  }
+
+  #paperStyle #quesNoAA {
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  #paperStyle #quesNoAA img {
+    margin-top: 2px;
+    width: 15px;
+    height: 13px;
+  }
+  form #standard-basic {
+    width: 265px;
+    margin-left: 2px;
+  }
+  #quesNoTQ {
+    padding-top: 2px;
+    font-size: 15px;
+    font-family: sans-serif;
+  }
+  #quesNoTQ img {
+    width: 12px;
+    height: 10px;
+  }
+  #textAreaTQ {
+    margin: 20px 0px 20px 0px;
+    color: #ed3c28;
+  }
+
+  #textAreaTQ textarea {
+    width: 200%;
+    height: 100px;
+    outline: none;
+    border: 1.5px solid grey;
+    border-radius: 4px;
+    text-indent: 15px;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 18px;
+    padding: 10px 5px 5px 0px;
+  }
+  #quesTextTQ {
+    margin-top: 0px;
+    margin-left: 4px;
+  }
+
+  .timerFunction {
+    background-color: rgb(135, 131, 131);
+    border-radius: 12px;
+    height: 40px;
+    width: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
+
+/* ------------------------------------------Media Query Ends------------------------ */
